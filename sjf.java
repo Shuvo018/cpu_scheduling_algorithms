@@ -8,7 +8,7 @@ import static java.util.stream.Collectors.toMap;
 
 public class sjf {
     public static void main(String args[]){
-//*** non preemptive ****//
+//*** preemptive ****//
         String[] procss = {"p1","p2","p3","p4","p5"};
         Integer[] arrival = {4,0,1,6,2};
         Integer[] burst = {5,2,5,7,3};
